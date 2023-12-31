@@ -158,7 +158,8 @@ export function SideBar(props: { className?: string }) {
           Copilot2GPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          本站基于 Cloudflare Workers/Pages 将 Github 学生包中的 Copilot Chat 转发到 ChatGPT 前端，从而提供完全免费的 ChatGPT 服务。
+          Powered by Github Copilot Chat.
+          Hosted on Cloudflare Workers & Pages.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
