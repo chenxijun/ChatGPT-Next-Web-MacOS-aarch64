@@ -11,7 +11,7 @@ const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
   title: "Copilot2GPT",
-  description: "本项目将 Github Copilot Chat API 转换为 OpenAI ChatGPT API，实现提供完全免费的 ChatGPT 服务。",
+  description: "本站基于 Cloudflare Workers/Pages 将 Github 学生包中的 Copilot Chat 转发到 ChatGPT 前端，从而提供完全免费的 ChatGPT 服务。",
   viewport: {
     width: "device-width",
     initialScale: 1,

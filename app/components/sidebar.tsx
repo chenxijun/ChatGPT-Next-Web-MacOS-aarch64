@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           Copilot2GPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          本项目将 Github Copilot Chat API 转换为 OpenAI ChatGPT API，实现提供完全免费的 ChatGPT 服务。
+          本站基于 Cloudflare Workers/Pages 将 Github 学生包中的 Copilot Chat 转发到 ChatGPT 前端，从而提供完全免费的 ChatGPT 服务。
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
@@ -216,11 +216,11 @@ export function SideBar(props: { className?: string }) {
               <IconButton icon={<SettingsIcon />} shadow />
             </Link>
           </div>
-          <div className={styles["sidebar-action"]}>
+          {/* <div className={styles["sidebar-action"]}>
             <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
               <IconButton icon={<GithubIcon />} shadow />
             </a>
-          </div>
+          </div> */}
         </div>
         <div>
           <IconButton
