@@ -34,7 +34,6 @@ export function useCommand(commands: Commands = {}) {
 
 interface ChatCommands {
   new?: Command;
-  newm?: Command;
   next?: Command;
   prev?: Command;
   clear?: Command;
