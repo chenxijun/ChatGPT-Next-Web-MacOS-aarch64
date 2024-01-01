@@ -159,6 +159,7 @@ export function SideBar(props: { className?: string }) {
         </div>
         <div className={styles["sidebar-sub-title"]}>
           Powered by Github Copilot Chat.
+          <br />
           Hosted on Cloudflare Workers & Pages.
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
